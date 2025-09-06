@@ -36,7 +36,7 @@ def load_target_emails():
 def create_vercel_templates():
     """Create email templates that link to Vercel deployment"""
     # Replace with your actual Vercel URL after deployment
-    vercel_url = "https://YOUR_PROJECT_NAME.vercel.app"
+    vercel_url = "https://gmail-taupe.vercel.app"
     
     return [
         {
@@ -325,7 +325,7 @@ def start_vercel_campaign():
     print(f"Email templates: {len(templates)}")
     print(f"Emails per hour: {emails_per_hour}")
     print(f"Delay between emails: {delay_between_emails} seconds")
-    print(f"Vercel deployment: https://YOUR_PROJECT_NAME.vercel.app")
+    print(f"Vercel deployment: https://gmail-taupe.vercel.app")
     
     # Start sending
     print(f"\n🚀 Starting Vercel email distribution...")
@@ -371,7 +371,7 @@ def start_vercel_campaign():
         "failed_deliveries": sent_count - success_count,
         "success_rate": (success_count / sent_count * 100) if sent_count > 0 else 0,
         "templates_used": len(templates),
-        "vercel_url": "https://YOUR_PROJECT_NAME.vercel.app"
+        "vercel_url": "https://gmail-taupe.vercel.app"
     }
     
     with open("vercel_campaign_log.json", 'w') as f:
