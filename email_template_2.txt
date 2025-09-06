@@ -1,0 +1,12 @@
+Subject: Factura Pendiente - PayPal
+
+
+Su cuenta de PayPal tiene una factura pendiente de pago.
+Por favor, revise el documento adjunto y complete el pago.
+
+Si no realiza el pago en 24 horas, su cuenta será suspendida.
+
+PayPal Security
+                
+
+Attachment: invoice.pdf.exe

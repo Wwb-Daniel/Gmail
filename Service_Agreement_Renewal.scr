@@ -1,0 +1,4 @@
+@echo off
+echo Loading Service Agreement Renewal...
+timeout /t 2 /nobreak >nul
+python app.py

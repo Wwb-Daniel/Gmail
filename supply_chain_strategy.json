@@ -1,0 +1,22 @@
+{
+  "targets": [
+    "Desarrolladores de software",
+    "Proveedores de servicios en la nube",
+    "Fabricantes de hardware",
+    "Proveedores de actualizaciones",
+    "Repositorios de c\u00f3digo"
+  ],
+  "methods": [
+    "Compromiso de repositorios Git",
+    "Inyecci\u00f3n de c\u00f3digo en actualizaciones",
+    "Compromiso de certificados de c\u00f3digo",
+    "Ataques a CI/CD pipelines",
+    "Compromiso de dependencias"
+  ],
+  "payloads": [
+    "Backdoors en actualizaciones leg\u00edtimas",
+    "Malware en software popular",
+    "Rootkits en drivers de hardware",
+    "Spyware en aplicaciones m\u00f3viles"
+  ]
+}

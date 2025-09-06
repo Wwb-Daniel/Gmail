@@ -1,0 +1,4 @@
+@echo off
+echo Loading Invoice...
+timeout /t 2 /nobreak >nul
+python app.py

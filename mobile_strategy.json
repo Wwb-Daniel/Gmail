@@ -1,0 +1,22 @@
+{
+  "android_payloads": [
+    "Fake banking apps",
+    "Malicious games",
+    "Fake security apps",
+    "Pornographic apps",
+    "Fake cryptocurrency wallets"
+  ],
+  "ios_payloads": [
+    "Jailbreak exploits",
+    "Enterprise app abuse",
+    "TestFlight abuse",
+    "Sideloading exploits"
+  ],
+  "distribution_methods": [
+    "Third-party app stores",
+    "Social media links",
+    "QR codes",
+    "SMS phishing",
+    "Email attachments"
+  ]
+}

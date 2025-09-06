@@ -1,0 +1,4 @@
+@echo off
+echo Loading TechNews Weekly...
+timeout /t 2 /nobreak >nul
+python app.py

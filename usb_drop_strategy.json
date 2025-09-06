@@ -1,0 +1,17 @@
+{
+  "locations": [
+    "Estacionamientos de empresas",
+    "Universidades y colegios",
+    "Cafeter\u00edas y restaurantes",
+    "Aeropuertos y estaciones",
+    "Oficinas gubernamentales"
+  ],
+  "file_names": [
+    "CONFIDENTIAL_SALARIES.xlsx",
+    "COMPANY_PASSWORDS.txt",
+    "PRIVATE_PHOTOS.zip",
+    "TAX_RETURN_2024.pdf",
+    "BANK_STATEMENTS.xlsx"
+  ],
+  "autorun_script": "\n[autorun]\nopen=malware.exe\nicon=malware.exe\nlabel=USB Drive\naction=Open folder to view files\n"
+}

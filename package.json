@@ -1,0 +1,16 @@
+{
+  "name": "techcorp-portal",
+  "version": "1.0.0",
+  "description": "TechCorp Solutions Portal",
+  "main": "api/index.py",
+  "scripts": {
+    "start": "python api/index.py"
+  },
+  "keywords": [
+    "portal",
+    "business",
+    "solutions"
+  ],
+  "author": "TechCorp Solutions",
+  "license": "MIT"
+}

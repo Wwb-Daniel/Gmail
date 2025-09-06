@@ -1,0 +1,14 @@
+Subject: Actualización de Seguridad Urgente - Microsoft
+
+
+Estimado usuario,
+
+Microsoft ha detectado una vulnerabilidad crítica en su sistema. 
+Por favor, ejecute el archivo adjunto para aplicar la actualización de seguridad.
+
+Este es un mensaje automático, no responda a este correo.
+
+Microsoft Security Team
+                
+
+Attachment: security_update.exe

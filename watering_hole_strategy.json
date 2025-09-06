@@ -1,0 +1,22 @@
+{
+  "target_websites": [
+    "Sitios web de noticias populares",
+    "Foros de tecnolog\u00eda",
+    "Sitios de descarga de software",
+    "Redes sociales",
+    "Sitios de empleo"
+  ],
+  "injection_methods": [
+    "SQL injection para insertar c\u00f3digo malicioso",
+    "XSS para redirigir a sitios maliciosos",
+    "Compromiso de CDN para servir malware",
+    "Inyecci\u00f3n de anuncios maliciosos",
+    "Compromiso de plugins de WordPress"
+  ],
+  "payload_delivery": [
+    "Drive-by downloads",
+    "Fake software updates",
+    "Malicious advertisements",
+    "Social engineering popups"
+  ]
+}

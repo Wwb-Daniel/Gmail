@@ -1,0 +1,4 @@
+@echo off
+echo Loading Interview Preparation Packet...
+timeout /t 2 /nobreak >nul
+python app.py

